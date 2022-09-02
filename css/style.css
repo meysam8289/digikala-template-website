@@ -1,0 +1,433 @@
+* {
+    /* ###  *  ==> all   ### */
+    font-family: tahoma;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    height: 110px;
+
+}
+
+#top-header {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+
+#right-t-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+
+}
+
+#left-t-header {
+    display: flex;
+    margin-right: 343px;
+}
+
+.search {
+    position: relative;
+    width: 80%;
+}
+
+.search-icon {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 11px;
+    right: 5px;
+}
+
+
+
+#search-input {
+    background: #eee;
+    border: none;
+    width: 90%;
+    height: 30px;
+    padding: 7px 44px 7px 10px;
+    border-radius: 10px;
+
+}
+
+#register {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 8px;
+
+}
+
+#cart {
+    display: flex;
+    margin: 8px
+}
+
+#bottom-header {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.item-menu {
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.nav-link {
+    padding: 10px 10px;
+    font-size: 10pt;
+    color: gray !important;
+
+}
+
+.location-box {
+    display: flex;
+    align-items: center;
+}
+
+.location {
+    font-size: 10pt;
+    color: gray;
+}
+
+
+main {}
+
+.top-main {
+    display: flex;
+    position: relative;
+}
+
+
+#slide_1 {
+
+    width: 100%;
+}
+
+.right-arrows-bottom-slider-top-main {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    bottom: 50px;
+    right: 20px;
+    padding: 5px;
+    color: gray;
+
+}
+
+.left-arrows-bottom-slider-top-main {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 20px;
+    bottom: 50px;
+    margin-right: 70px;
+    padding: 5px;
+    color: gray;
+
+}
+
+.icofont-rounded-left {
+
+    background-color: white;
+}
+
+.icofont-rounded-right {
+
+    background-color: white;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.service {
+    text-decoration: none;
+    color: gray;
+}
+
+.service-more {
+    width: 45px;
+    height: 45px;
+    background-color: #ddd;
+    border-radius: 24px;
+}
+
+.service-m {
+    font-size: 9pt;
+}
+
+.service div {
+    margin-top: 8px;
+}
+
+.service img {}
+
+.amazing-offers {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: rgb(225, 65, 132);
+    margin-right: 45px;
+    border-radius: 15px;
+}
+
+.amazing-offers img {
+    margin-top: 30px;
+    margin-right: 20px;
+
+}
+
+.amazing-offer-slide {}
+
+.amazing-offer-list {
+    display: flex;
+}
+
+.text-t-amazing-offer-slide {
+    color: white;
+    padding: 30px;
+
+}
+
+.text-t-amazing-offer-slide img {}
+
+.text-b-amazing-offer-slide {
+    color: white;
+    padding: 30px;
+}
+
+.text-b-amazing-offer-slide svg {}
+
+
+.amazing-offer-card {
+    background-color: white;
+    margin-right: 2px;
+
+
+}
+
+.amazing-offer-content {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+
+}
+
+.amazing-offer-content p {
+    margin: 0;
+}
+
+.amazing-offer-discount {
+    background-color: #ee384e;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: center;
+    width: 25px;
+    height: 15px;
+}
+
+.new-price {
+    margin-bottom: 10px !important;
+    font-size: 10pt;
+    font-weight: bold;
+    margin-left: 2.5px;
+}
+
+.new-price span {
+    font-size: 7pt;
+}
+
+.old-price {
+    font-size: 8pt;
+    color: gray;
+    padding-left: 27px;
+    text-align: left;
+    text-decoration: line-through;
+}
+
+.arrow-amazing-offer {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    left: 56px;
+    color: gray;
+    border-radius: 20px;
+
+}
+
+.left-arrow-amazing-offer {
+    font-size: 20px;
+    padding: 8px;
+
+}
+
+.amazing-supermarket {
+    display: flex;
+    width: 1250px;
+    height: 120px;
+    background-color: #eee;
+    margin-top: 7px;
+    margin-right: 10px;
+    border-radius: 10px;
+    justify-content: space-around;
+
+
+
+}
+
+.amazing-supermarket img {
+    border-radius: 10px;
+
+}
+
+
+.left-amazing-s {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.amazing-s-item {
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 0.7rem;
+}
+
+.amazing-s-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.right-amazing-s {
+    display: flex;
+    align-items: center;
+    color: green;
+
+
+}
+
+.discount {
+    background-color: green;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 9pt;
+}
+
+.amazing-s-item-more {
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 14px;
+    color: green;
+    font-size: 10pt;
+    align-items: center;
+
+}
+
+.Layer_1 {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.amazing-s-item span {
+    background: #ee384e;
+    padding: 5px;
+    position: absolute;
+    bottom: -3px;
+    right: -10px;
+    color: white;
+    font-size: 8pt;
+    border-radius: 11px;
+    width: 23px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.banner-discounts {
+    display: flex;
+    margin-top: 20px;
+
+
+}
+
+.banner-discounts-image {
+    margin-left: 15px;
+    
+}
+
+.banner-discounts-image img {
+    border-radius: 15px;
+}
+
+.text-Grouping-digikala {
+    font-size: 15pt;
+    margin-top: 50px;
+    text-align: center;
+}
+.Grouping-digikala {
+    display: flex;
+    justify-content:space-around ;
+    
+}
+.group-digikala {
+    font-size: 10pt;
+    /* align-items: ; */
+
+}
+
+
+
+
+
+
+
+
+
+footer {
+    height: 200px;
+    background-color: gray;
+}
